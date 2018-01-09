@@ -1,0 +1,18 @@
+{
+  "name": "request-tick",
+  "version": "1.0.0",
+  "description": "A debounced requestAnimationFrame for optimal performance.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.conf.js"
+  },
+  "keywords": [
+    "requestAnimationFrame"
+  ],
+  "author": "Charles-Philippe Clermont @charlespwd",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "repository": "git@github.com:charlespwd/request-tick.git"
+}
