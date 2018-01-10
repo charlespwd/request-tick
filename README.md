@@ -10,6 +10,10 @@ For optimal performance, it is best to call requestAnimationFrame at most once p
 
 Internally, a `Map<Function, boolean>` is used to determine if a function has been registered for a requestAnimationFrame per frame.
 
+For more context, there's the [debounce your input handlers][1] article.
+
+[1]: https://developers.google.com/web/fundamentals/performance/rendering/debounce-your-input-handlers
+
 ## Installation
 
 ```
