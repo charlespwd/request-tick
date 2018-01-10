@@ -7,4 +7,11 @@ module.exports = {
     filename: 'index.js',
     libraryTarget: 'umd',
   },
+  module: {
+    rules: [{
+      test: /\.js$/,
+      exclude: /static\/js|node_modules/,
+      loader: 'babel-loader',
+    }],
+  },
 };

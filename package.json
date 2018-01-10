@@ -1,6 +1,6 @@
 {
   "name": "request-tick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A debounced requestAnimationFrame for optimal performance.",
   "main": "lib/index.js",
   "scripts": {
@@ -12,6 +12,9 @@
   "author": "Charles-Philippe Clermont @charlespwd",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
     "webpack": "^3.10.0"
   },
   "repository": "git@github.com:charlespwd/request-tick.git"
